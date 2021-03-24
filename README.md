@@ -1,4 +1,4 @@
-# html5-boilerplate-polish-version
+# html5-boilerplate
 This is a complete HTML5-based website design template
 
 The whole template is already made. All you have to do after downloading it is to install SASS, Node. js, Grunt. js and its packages.</br>
