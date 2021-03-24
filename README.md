@@ -1,7 +1,7 @@
 # html5-boilerplate
 This is a complete HTML5-based website design template
 
-The whole template is already made. All you have to do after downloading it is to install SASS, Node. js, Grunt. js and its packages.</br>
+The whole template is already made. All you have to do after downloading it is to install SASS, Node. js, Grunt. js and npm packages.</br>
 
 SASS installation </br>
 If you do not know how to do this, type on Youtube the phrase "How to install SASS?" or use the given link (https://www.youtube.com/watch?v=Do7ivdaQU8Y).
