@@ -1,0 +1,16 @@
+# humanstxt.org/
+# The humans responsible & technology colophon
+
+# TEAM
+
+    Szymon Chirowski -- CEO -- https://www.facebook.com/szymonchirowski.1411/
+
+# THANKS
+
+    HTML5 BORDERPLATE TEAM -- https://html5boilerplate.com/
+    Grunt Team -- https://gruntjs.com/
+
+# TECHNOLOGY COLOPHON
+
+    CSS3, HTML5
+    Apache Server Configs, jQuery, Normalize.css
