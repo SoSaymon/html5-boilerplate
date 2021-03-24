@@ -71,22 +71,22 @@ module.exports = function(grunt) {
         jshint: {
             options: {
 
-                "bitwise": true, //niemożność używania operatorów & i | - są rzadko używane, a często ktoś się myli
-                "camelcase": true, //albo nazywasz zmienne takiSposob albo TAKI_SPOSOB, ale nie np. taki_sposob
-                "curly": true, //wymagany curly bracer po pętli            
-                "latedef": true, //nie można użyć zmiennej zanim się jej nie zdefinuje
-                "newcap": true, //wymaganie pierwszej duzej litery w konstruktorach            
-                "nonew": true, //nie można stworzyć konstruktora bez przypisania go do niczego            
-                "undef": true, //nie można użyć niezdefiniowanej zmiennej
-                "unused": true, //informuje o tym, że stworzyliśmy zmienną, ale nie użyliśmy jej           
-                "esnext": true, //piszemy zgodnie z najnowszą specyfikacją    
+                "bitwise": true,
+                "camelcase": true,
+                "curly": true,
+                "latedef": true,
+                "newcap": true,
+                "nonew": true,
+                "undef": true,
+                "unused": true,
+                "esnext": true,
 
-                "sub": true, //nie wyrzuca ostrzeżenia dla person['name'] twierdzi, że lepiej jest napisać: person.name.
-                "browser": true, //dzięki temu nie wyrzuca błędów dla globalnych zmiennych
-                "node": true, //można bez problemu korzystać z node
-                "jquery": true, //j/w ale z jquery
-                "devel": true, //alert nie wyrzuca ostrzeżenia           
-                "strict": true // - pisanie w strict mode, jak się zrobi pewnego rodzaju "ciche" błędy to program normalnie, działa, z tym nie      
+                "sub": true,
+                "browser": true,
+                "node": true,
+                "jquery": true,
+                "devel": true,
+                "strict": true
             },
             target: {
                 src: ['js/**/*.js', '!js/output.min.js']
